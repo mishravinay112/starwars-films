@@ -11,13 +11,6 @@ import Searchbox from '../components/Searchbox';
 import Suggestions from '../components/Suggestions';
 import MyInfo from '../components/MyInfo';
 
-
-// Import can't be in conditional so use require.
-if (process.env.WEBPACK) {
-  require('../css/pages/home.css'); // eslint-disable-line global-require
-}
-
-
 export class Home extends Component {
   static propTypes = {
     searchString: PropTypes.string,

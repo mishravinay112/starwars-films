@@ -13,7 +13,7 @@ git clone git@github.com:mishravinay112/starwars-films.git
 cd starwars-films
 yarn
 ```
-but still you can use default package manager of node as well. If you can also install dependency via `npm`
+but still if you don't want to use `yarn`. you can install dependency via `npm`
 
 `npm i`
 
