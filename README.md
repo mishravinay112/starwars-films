@@ -9,7 +9,7 @@ I recommend using [yarn](https://code.facebook.com/posts/1840075619545360) to ma
 Then simply clone the repository and install using the `yarn` command.
 
 ```
-git clone git@github.com:mishravinay112/starwars-films.git
+git clone https://github.com/mishravinay112/starwars-films.git
 cd starwars-films
 yarn
 ```
@@ -51,7 +51,7 @@ If you're familiar with Sass, then writing CSS within this boilerplate project w
 
 
 #### No Gulp or Grunt
-This project uses npm scripts to run the few tasks needed to build and serve the app. The scripts are located in 
+This project uses npm scripts to run the few tasks needed to build and serve the app. The scripts are located in
 
 `package.json`.
 
