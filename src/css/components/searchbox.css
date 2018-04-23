@@ -1,0 +1,14 @@
+.form-group {
+  margin-bottom: inherit !important;
+  border: 0px none;
+  border-color: none;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: inherit !important;
+}
+
+.input-lg {
+  border-radius: 0px;
+}

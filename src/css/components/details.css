@@ -1,0 +1,89 @@
+
+section {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  z-index: 1;
+  color: #ff6;
+}
+
+.film-name {
+  font-size: 150%;
+}
+
+.information {
+  width: 14.65em;
+  margin: 0 0 0 -7.325em;
+  top: auto;
+  bottom: 0;
+  height: 50em;
+  font-size: 350%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: perspective(300px) rotateX(25deg);
+  -moz-transform: perspective(300px) rotateX(25deg);
+  -o-transform: perspective(300px) rotateX(25deg);
+  transform: perspective(300px) rotateX(25deg);
+}
+
+.information > div {
+  position: absolute;
+  top: 100%;
+  -webkit-animation: information 50s linear .1s;
+  -moz-animation: information 50s linear .1s;
+  -o-animation: information 50s linear .1s;
+  animation: information 50s linear .1s;
+}
+
+.information > div:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.information > div > p {
+  line-height: 1.35em;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@-webkit-keyframes information {
+  0% {
+    top: 100%;
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 20%;
+    opacity: 0;
+  }
+}
+
+@keyframes information {
+  0% {
+    top: 100%;
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 20%;
+    opacity: 0;
+  }
+}
